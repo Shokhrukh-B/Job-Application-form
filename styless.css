@@ -1,8 +1,37 @@
 .html{
     background-color: rgb(181, 233, 233);
     font-size: ans-serif;
+    display: flex;
 }
 
 .body{
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.full_name{
+    display: block;
+
+}
+
+.full_name_item{
+    display: inline-block;
+    width: 30%;
+
+}
+
+.body_size{
+    display: block;
+}
+
+.body_size_item{
+    display: inline-block;
+    width: 45%;
 }
