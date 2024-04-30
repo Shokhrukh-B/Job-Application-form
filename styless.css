@@ -1,7 +1,6 @@
 .html{
     background-color: rgb(181, 233, 233);
     font-size: ans-serif;
-    display: flex;
 }
 
 .body{
@@ -34,4 +33,27 @@ p{
 .body_size_item{
     display: inline-block;
     width: 45%;
+}
+
+.city, .state, .phone, .email{
+    display: inline-block;
+    width: 45%;
+}
+
+.zip_code{
+    display: block;
+    width: 100%;
+}
+
+.area_code{
+    display: inline-block;
+    width: 20%;
+}
+
+.phone_number{
+    display: inline-block;
+    width: 30%;
+}
+label{
+    font-size: 12px;
 }
