@@ -35,7 +35,7 @@ p{
     width: 45%;
 }
 
-.city, .state, .phone, .email{
+.city, .state, .phone, .email, .linkedin, .experience, .position_applied, .hear_about{
     display: inline-block;
     width: 45%;
 }
@@ -56,4 +56,17 @@ p{
 }
 label{
     font-size: 12px;
+}
+
+.nbsp{
+    border: none;
+}
+
+table, tr, th{
+    border: 5px rgb(101, 100, 100);
+    border-radius: 5px;
+}
+
+.table_head_color{
+    background-color: rgb(203, 203, 227);
 }
